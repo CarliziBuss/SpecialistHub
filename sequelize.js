@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('nome_do_banco_de_dados', 'usuario_do_banco', 'senha_do_banco', {
+const sequelize = new Sequelize('bd_API_nodejs', 'root', '1234', {
   host: 'localhost',
   dialect: 'mysql',
 });
